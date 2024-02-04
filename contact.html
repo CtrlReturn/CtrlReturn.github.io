@@ -1,0 +1,27 @@
+---
+layout: default
+title: Contact
+---
+
+        {% include contact-header.html %}
+        <!-- contact form start -->
+        <section id="contact-form">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+              {% include contact-form.html %}
+              </div>
+              <div class="col-md-6">
+                <div class="pl-2">
+                  <div class="block">
+                      {% include contact-info.html %}
+                      {% include social-icons.html %}
+                      {% include openstreet-map.html %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Call to action Start -->
+        {% include call-to-action.html %}

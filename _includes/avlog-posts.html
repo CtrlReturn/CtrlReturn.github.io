@@ -1,0 +1,28 @@
+<section id="avlog">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+
+              {% for post in site.posts %}
+                <!-- AVLog Post -->
+                <h2>
+                  <!-- <a href="{{ post.url | relative_url }}">{{ post.title }}</a>-->
+                  <a href="{{ post.url | prepend: 2024/ | replace: '//', '/' }}">{{ post.title }}</a>
+                </h2>
+                <p class="lead">
+                  by {{ post.author }}
+                </p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date: "%B %d, %Y" }} </p>
+                {% if page.image %}
+                <img class="img-responsive" src="{{ post.image }}" alt="{{ post.title }}">
+                <hr>
+                {% endif %}
+                {{ post.excerpt }}
+                <a class="btn btn-primary" href="{{ post.url | relative_url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <hr>
+              {% endfor %}
+
+            </div>
+        </div>
+    </div>
+</section>

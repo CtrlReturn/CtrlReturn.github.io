@@ -1,0 +1,15 @@
+- icon: "ion-headphone"
+  title: "Live-Coding Audio"
+  content: Using Software like FoxDot, TidalCycle, or SonicPi to compose music
+
+- icon: "ion-image"
+  title: "Live-Coding Visuals"
+  content: Create interactive video loops and visual compositions
+
+- icon: "ion-earth"
+  title: "Online Live Stream"
+  content: Performances are live-streamed. Workshops are recorded and published
+
+- icon: "icon ion-coffee"
+  title: "Networking"
+  content: Use the chance to mingle with fellow Coder and Artists

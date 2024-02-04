@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Danceable",
+    "img": "img/guests/guest-1.png",
+    "title": "Bot 1",
+    "content": "EDM Performance with FoxDot"
+  },
+  {
+    "category": "Workshops",
+    "img": "img/guests/guest-2.png",
+    "title": "Bot 2",
+    "content": "Workshop: FoxDot Beginner"
+  },
+  {
+    "category": "Experimental",
+    "img": "img/guests/guest-3.png",
+    "title": "Bot 3",
+    "content": "Experimental Performance"
+  },
+  {
+    "category": "Workshops",
+    "img": "img/guests/guest-4.png",
+    "title": "Bot 4",
+    "content": "Workshop: Visuals with PyGl"
+  },
+]

@@ -1,0 +1,37 @@
+<!-- Portfolio Start -->
+<section id="portfolio-work">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+              <div class="portfolio-menu">
+                <ul>
+                    <li class="filter" data-filter="all">All</li>
+                    {% assign filters = site.data.participants | group_by: 'category' %}
+                    {% for filter in filters %}
+                    <li class="filter" data-filter=".{{ filter.name }}">{{ filter.name }}</li>
+                    {% endfor %}
+                </ul>
+              </div>
+              <div class="portfolio-contant">
+                <ul id="portfolio-contant-active">
+                  {% for participant in site.data.participants %}
+                  <li class="mix {{ participant.category }}">
+                    <a href="#">
+                      <img src="{{ participant.img }}" alt="{{ participant.title }}">
+                      <div class="overly">
+                        <div class="position-center">
+                          <h2>{{ participant.title }}</h2>
+                          <p>{{ participant.content }}</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
