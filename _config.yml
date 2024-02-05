@@ -14,7 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Unleash your creativity with Python programming like never before.
   Join us for a tech-meets-music adventure!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ctrlreturn.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ctrlreturn.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: CtrlReturn
 github_username:  CtrlReturn
 
