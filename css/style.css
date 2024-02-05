@@ -89,7 +89,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("./img/slider-bg.jpg") no-repeat;
+  background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 2% 0%;
@@ -191,7 +191,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url("./img/call-to-action-bg.jpg") no-repeat;
+  background: url("../img/call-to-action-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0px;
@@ -233,7 +233,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("./img/featue-bg.jpg");
+  background: url("../img/featue-bg.jpg");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -358,7 +358,7 @@ font header .navbar-default .navbar-nav li a:hover {
 					Work Start
 -----------------------------------------------*/
 #party-header {
-  background: url("./img/slider-bg3.jpg") no-repeat;
+  background: url("../img/slider-bg3.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -401,7 +401,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start
 --*/
 #global-header {
-  background: url("./img/slider-bg2.jpg") no-repeat;
+  background: url("../img/slider-bg2.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -652,7 +652,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	slider-contact Start
 --*/
 #slider-contact {
-  background: url("./img/slider-bg2.jpg") no-repeat;
+  background: url("../img/slider-bg2.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
