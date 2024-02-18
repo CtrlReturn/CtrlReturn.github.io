@@ -17,12 +17,12 @@
                 <ul id="portfolio-contant-active">
                   {% for participant in site.data.participants %}
                   <li class="mix {{ participant.category }}">
-                    <a href="#">
+                    <a href="{{ participant.nick }}.html">
                       <img src="{{ participant.img }}" alt="{{ participant.title }}">
                       <div class="overly">
                         <div class="position-center">
                           <h2>{{ participant.title }}</h2>
-                          <p>{{ participant.content }}</p>
+                          <p>{{ participant.short }}</p>
                         </div>
                       </div>
                     </a>

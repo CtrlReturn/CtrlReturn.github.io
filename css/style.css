@@ -132,6 +132,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #avlog, #post {
     padding: 50px 0 40px;
+    background-color: #f6f0e2;
 }
 /*--
 	wrapper Start
@@ -913,4 +914,8 @@ th:first-child div{
 /* alternate colors for rows */
 .tablecontainer tbody  tr:nth-child(even){
      background-color: #ddd;
+}
+
+.bg {
+  background-color: #ddd;
 }
