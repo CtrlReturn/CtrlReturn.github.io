@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+{% include participant-header.html %}
+
+<!-- POST HTML -->
+<article id="post">
+    <div class="container">
+        <div class="row">
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-8">
+              <hr>
+                 <!-- Preview Image -->
+                 <img class="img-responsive" src="{{ page.image }}" alt="{{ page.title }}">
+              <hr>
+              <!-- Title -->
+              <h1>{{ page.title }}</h1>
+              <!-- Author -->
+              <p class="lead">
+                  {{ page.lead }}
+              </p>
+              <hr>
+                 <!-- Preview Video -->
+                 {% if page.video %}
+                 <iframe width="640" height="360" src="{{ page.video }}" frameborder="0" allowfullscreen="1"> </iframe>
+                 {% endif %}
+              <hr>
+
+                {{ page.content }}
+
+              <hr>
+
+            </div>
+        </div>
+    </div>
+</article>

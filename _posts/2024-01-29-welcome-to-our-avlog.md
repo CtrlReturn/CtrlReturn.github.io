@@ -5,6 +5,7 @@ image:
 video:
 lead: Welcome to our Audio Video Blog, that you will enable you to follow our Event from everywhere in the world. Each recorded and streamed workshop and performance will be posted here.
 subtitle: FoxBox v2 - Live Coding Music Box
+categories: post
 ---
 
 #### ZERO

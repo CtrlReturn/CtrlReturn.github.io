@@ -24,6 +24,10 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+collections:
+  participants:
+    output: true
+
 defaults:
   - scope:
       path: ""
@@ -35,3 +39,8 @@ defaults:
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
+  - scope:
+      path: ""
+      type: "participants"
+    values:
+      layout: participant
