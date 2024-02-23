@@ -1,22 +1,23 @@
 <section id="portfolio-work">
     <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-16">
+            <p>Make sure you come back to check >> New Artists/Tutors get added daily!</p>
             <div class="block">
+              {% for participant in site.participants %}
               <div class="col-md-4">
-                {% for participant in site.participants %}
-                  <a href="{{ participant.url | relative_url }}">
-                    <img src="{{ participant.image }}" alt="{{ participant.title }}">
-                  </a>
-                  <div class="overly">
-                    <div class="position-center">
-                      <h2>{{ participant.title }}</h2>
-                      <p>{{ participant.lead }}</p>
-                    </div>
+                <a href="{{ participant.url | relative_url }}">
+                  <img src="{{ participant.image }}" alt="{{ participant.title }}">
+                </a>
+                <div class="overly">
+                  <div class="position-center">
+                    <h2>{{ participant.title }}</h2>
+                    <p>{{ participant.lead }}</p>
+                    <p>{{ participant.categories }}</p>
                   </div>
                 </div>
-                {% endfor %}
-
+              </div>
+              {% endfor %}
           </div>
         </div>
     </div>

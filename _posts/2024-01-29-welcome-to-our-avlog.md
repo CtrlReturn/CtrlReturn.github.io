@@ -1,14 +1,18 @@
 ---
 title: Welcome to our Audio Video Blog
 date: 2024-01-29 17:00
+author: PitchGlitch
 image:
-video:
-lead: Welcome to our Audio Video Blog, that you will enable you to follow our Event from everywhere in the world. Each recorded and streamed workshop and performance will be posted here.
-subtitle: FoxBox v2 - Live Coding Music Box
+video: 
+lead: Welcome to our Audio Video Blog, that you will enable you to follow our Event from everywhere in the world.
+subtitle: Each recorded and streamed workshop and performance will be posted here!
 categories: post
 ---
 
-#### ZERO
-NaN
+#### AV BlOG
+Our AV Blog is going to publish all the streams we will do through-out the event.
 <br>
-*Find more info on my* <a href="" target="_blank">website</a> *!*
+*We also will stream to:*
+<a href="https://www.youtube.com/channel/UCCFn9pJVrxuxJgrN9NICZug" target="_blank">youtube</a>
+*and*
+<a href="https://www.facebook.com/ctrlreturn/" target="_blank">facebook</a> *!*
