@@ -35,4 +35,4 @@ open-source nature.
 
 ### MATERIAL
 <br>
-*Gitlab link for* <a href="https://www.youtube.com/embed/playlist?list=PL3UEW1KO48zVtPRtltygF4pH-a321a8zE" target="_blank">FoxDot_CodingMusic_Part1</a> *!*
+*Gitlab link for* <a href="https://gitlab.com/iShapeNoise/foxdot_codingmusic_part1" target="_blank">FoxDot_CodingMusic_Part1</a> *!*
