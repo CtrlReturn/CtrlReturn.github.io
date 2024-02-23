@@ -1,5 +1,5 @@
 ---
-title: Elie Gavoty
+title: Renardo Intro
 image: img/participants/elie.png
 video:
 lead: Jules Cipher

@@ -2,7 +2,7 @@
 title: LeRig
 image: img/participants/lerig.png
 video: https://www.youtube.com/embed/2xcd99azScQ?si=9KLyTjkpvhp_PFsJ
-lead: jm
+lead: PitchGlitch
 subtitle: I make techno music using code and synthesizers.
 categories: [danceable]
 ---
@@ -17,7 +17,6 @@ shadow-seeing lyrics and dark notes.
 ---
 
 ### EXAMPLES
-
 <br>
 
 PitchGlitch is an extension of his musical work:
