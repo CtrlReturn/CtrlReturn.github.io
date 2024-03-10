@@ -2,7 +2,7 @@
 title: LiveCoding Setup
 image: img/participants/crcdng.png
 video:
-lead: Michael Straeubig
+lead: cncdng
 subtitle: Robust, practical Livecoding with TidalCycles, Hydra and flok.
 categories: [workshop]
 ---
@@ -40,8 +40,8 @@ Software I will mention:
 
 ## BIO
 <br>
-crcdng is a transdisciplinary theorist and practitioner with a focus on
-systems theory, playful design, and posthuman positions.
+Michael Straeubig aka crcdng is a transdisciplinary theorist and practitioner
+with a focus on systems theory, playful design, and posthuman positions.
 
 He received a Masters in Computer Science from the University Erlangen-Nuremberg
 and a PhD on designing playful systems as a Marie Curie Fellow from
