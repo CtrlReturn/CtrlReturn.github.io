@@ -2,7 +2,7 @@
 title: LiveCoding Setup
 image: img/participants/crcdng.png
 video:
-lead: cncdng
+lead: crcdng
 subtitle: Robust, practical Livecoding with TidalCycles, Hydra and flok.
 categories: [workshop]
 ---
