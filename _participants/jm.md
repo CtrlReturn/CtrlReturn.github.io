@@ -18,6 +18,14 @@ makes live coding easy and fun for both programming newcomers and veterans alike
 
 Workshop is momentarily available in English and in German.
 
+## PREPARATION
+
+Please bring your own laptop and headphones to the workshop.
+
+I will go through the installation with you. However, if you can install Supercollider
+and FoxDot before the workshop, it will reduce the probability of getting stuck on
+installation problems.
+
 ## BIO
 <br>
 >Movement is life, balance is not a fixed point.
