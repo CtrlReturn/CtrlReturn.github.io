@@ -26,6 +26,11 @@ I will go through the installation with you. However, if you can install Superco
 and FoxDot before the workshop, it will reduce the probability of getting stuck on
 installation problems.
 
+There is another way to prepare in case you have trouble installing, or you just
+want to try things out before installation. I made a distro image, so if you have
+an usb stick and you can boot Linux on your laptop, check it out!
+<a href="https://jensmeisner.net/linux-mx-distro-for-workshops/" target="_blank">Workshop Distro</a>
+
 ## BIO
 <br>
 >Movement is life, balance is not a fixed point.
