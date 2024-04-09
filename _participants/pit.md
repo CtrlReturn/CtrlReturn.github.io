@@ -41,7 +41,7 @@ be shared.
 
 ## BIO
 <br>
-I’m pit [he/him], from Italy (currently based in Firenze, but always on the move).
+I’m pit [he/him], from Italy (currently based in Florenze, but always on the move).
 I have been a live coding aficionado for some time now, ever since I attended
 a workshop on SuperCollider back in 2019 or so. Since then I've been
 experimenting with different languages, trying to learn them by messing around,
