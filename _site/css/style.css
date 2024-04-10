@@ -445,7 +445,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #portfolio-work {
   overflow: hidden;
-  padding: 80px 0;
+  padding: 40px 0;
   background-color: #f6f0e2;
 }
 #portfolio-work .block .portfolio-menu {
