@@ -1,20 +1,25 @@
 ---
 title: KittyClock
 image: img/participants/kittyclock.png
-video: https://www.youtube.com/embed/tRMBLYaMfvg?si=qvQ98FsSK491qWOw
+video: https://www.youtube.com/embed/RJp4n_qRKoM?si=pWn5ZlwX3Dhv10Kc&amp;start=3096
 lead: Vlad
-subtitle: Raving to Industrial Techno produced with FoxDot and SuperCollider.
+subtitle: Crafting heavy & glitchy experimental beats with FoxDot and SuperCollider
 categories: [danceable]
 ---
 
 ## BIO
 <br>
-KittyClock arrives from the depth of the Techno Rave scene in Prague.
-His music is made mainly done in FoxDot and SuperCollider. Beside this, he uses
-knobs, bits and bops which get reflected in his music coding.
+Emerging from the foggy depths of Prague's underground scene, KittyClock is utilizing
+FoxDot, SuperCollider, and Hydra to craft his audiovisual experiments.
 
-He is the organizer of the biggest FoxDot community channel on Telegram. Many
-people with the same passion found each other through this information hub.
+His sound is a relentless fusion of industrial heaviness and experimental noise,
+where thunderous, machine-like rhythms meet stark, glitched-out visuals.
+
+He's forging an auditory onslaught that challenges the senses, enveloping listeners
+in a soundscape where the boundary between man and machine blurs into obscurity.
+
+He is also the organizer of the biggest FoxDot community channel on Telegram.
+Many people with the same passion found each other through this information hub.
 
 #### And KittyClock got a surprise for this event in his sleeves! Miaowww ;-D
 ---
