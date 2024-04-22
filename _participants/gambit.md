@@ -2,7 +2,7 @@
 title: Daniele Gambetta
 image: img/participants/dani.png
 video: https://www.youtube.com/embed/HVJRmBzYO2g?si=4oavpHvPg4t6Kgtn
-lead: Gambit
+lead: Gambit & Sabrin
 subtitle: Dance/techno music around 130-150 bpm
 categories: [danceable]
 ---
@@ -11,6 +11,9 @@ categories: [danceable]
 
 Daniele likes using more synths than samples, and variable effects. He prefers
 melodic tracks, with arpeggios and use of chords.
+
+His friend Sabrin is in Berlin to add coded visuals made in Hydra to the audio
+performance.
 
 ## BIO
 <br>
