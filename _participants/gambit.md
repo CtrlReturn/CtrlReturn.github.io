@@ -12,8 +12,8 @@ categories: [danceable]
 Daniele likes using more synths than samples, and variable effects. He prefers
 melodic tracks, with arpeggios and use of chords.
 
-His friend Sabrin is in Berlin to add coded visuals made in Hydra to the audio
-performance.
+His friend Sabrin is in Berlin for this event to add coded visuals made in Hydra
+to the audio performance.
 
 ## BIO
 <br>
