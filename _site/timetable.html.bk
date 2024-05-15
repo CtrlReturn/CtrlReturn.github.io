@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Event Info</title>
+    <meta name="description" content="Dive into the intersection of music and Python at ctrlreturn.de Berlin's ultimate live coding event. Experience real-time music creation, workshops, and the unique vibes of our vibrant community. Unleash your creativity with Python programming like never before. Join us for a tech-meets-music adventure!
+">
+    <meta name="keywords" content="Live-coding event, Music Coders Event, Python Arts, c-base Berlin, Creative Coder Event">
+    <meta name="author" content="CtrlReturn, CtrlReturn.de">
+    <base href="http://localhost:4000">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/ionicons.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <!-- Js -->
+    <script src="./js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/plugins.js"></script>
+    <script src="./js/min/waypoints.min.js"></script>
+    <script src="./js/jquery.counterup.js"></script>
+    <!-- Google Map -->
+    <script src="./js/main.js"></script>
+
+  </head>
+  <body>
+
+    <!-- Header Start -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <!-- header Nav Start -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.png" alt="Logo">
+      </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li ><a href="timetable.html">Schedule</a></li>
+        <li ><a href="avlog.html">(AV)log</a></li>
+        <li ><a href="news.html">Get News</a></li>
+        <li ><a href="about-us.html">About</a></li>
+        <li ><a href="contact.html">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+          </div>
+        </div>
+      </div>
+    </header><!-- header close -->
+
+        <!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Event Info</h2>
+          <p>There are 3 main sections</br>Workshops - Experimental Performances - EDM Performances</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Portfolio Start -->
+<section id="portfolio-work">
+  <div class=container>
+  <h1>c-base time</h1>
+  </div>
+  <div class="headercontainer">
+    <div class="tablecontainer">
+      <p></p>
+      <p></p>
+      <table border="4" cellspacing="0" align="center">
+          <!--<caption>Timetable</caption>-->
+        <thead>
+          <tr>
+              <td align="center" height="40" width="60">
+                  <h4><b>Date</b></h4>
+              </td>
+              <td align="center" height="40" width="60">
+                  <h4><b>Meetup/Event</b></h4>
+              </td>
+              <td align="center" height="40" width="180">
+                  <h4><b>What is on</b></h4>
+              </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <td align="center" height="25">14/06/24</td>
+              <td align="center" height="25">Jam&Learn #1</td>
+              <td align="center" height="25"><b>First Gathering</b><br><i>Software installation and Flok server testing</i></td>
+          </tr>
+          <tr>
+              <td align="center" height="25">12/07/24</td>
+              <td align="center" height="25">Jam&Learn #2</td>
+              <td align="center" height="25"><b></b><br><i></i></td>
+          </tr>
+          <tr>
+              <td align="center" height="25">16/08/24</td>
+              <td align="center" height="25">Jam&Learn #3</td>
+              <td align="center" height="25"><b></b><br><i></i></td>
+          </tr>
+          <tr>
+              <td align="center" height="25">13/09/24</td>
+              <td align="center" height="25">Jam&Learn #4</td>
+              <td align="center" height="25"><b></b><br><i></i></td>
+          </tr>
+          <tr>
+              <td align="center" height="25">11/10/24</td>
+              <td align="center" height="25">Jam&Learn #5</td>
+              <td align="center" height="25"><b></b><br><i></i></td>
+          </tr>
+          <tr>
+              <td align="center" height="25">15/11/24</td>
+              <td align="center" height="25">Jam&Learn #6</td>
+              <td align="center" height="25"><b></b><br><i></i></td>
+          </tr>
+          <tr>
+              <td align="center" height="25">13/12/24</td>
+              <td align="center" height="25">Jam&Learn #7</td>
+              <td align="center" height="25"><b></b><br><i></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+    <section id="portfolio-work">
+    <div class="container">
+          <div class="col-md-16">
+            <div class="block">
+              
+              <div class="col-md-4">
+                <a href="/participants/bito.html">
+                  <img src="img/participants/bito.png" alt="Bito">
+                </a>
+                <div class="overly">
+                  <div class="position-center">
+                    <h2>Bito</h2>
+                    <p>Alejandro Sánchez Medina</p>
+                    <p>danceable</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <a href="/participants/crcdng.html">
+                  <img src="img/participants/crcdng.png" alt="LiveCoding Setup">
+                </a>
+                <div class="overly">
+                  <div class="position-center">
+                    <h2>LiveCoding Setup</h2>
+                    <p>crcdng</p>
+                    <p>workshop</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <a href="/participants/elie.html">
+                  <img src="img/participants/elie.png" alt="Renardo Intro">
+                </a>
+                <div class="overly">
+                  <div class="position-center">
+                    <h2>Renardo Intro</h2>
+                    <p>Jules Cipher</p>
+                    <p>workshop</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <a href="/participants/elieg.html">
+                  <img src="img/participants/elieg.png" alt="Elie Gavoty">
+                </a>
+                <div class="overly">
+                  <div class="position-center">
+                    <h2>Elie Gavoty</h2>
+                    <p>Jules Cipher</p>
+                    <p>danceable</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <a href="/participants/estuary.html">
+                  <img src="img/participants/estuary.png" alt="Estuary Intro">
+                </a>
+                <div class="overly">
+                  <div class="position-center">
+                    <h2>Estuary Intro</h2>
+                    <p>Alexandra Cardenas</p>
+                    <p>workshop</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <a href="/participants/gambit.html">
+                  <img src="img/participants/dani.png" alt="Daniele Gambetta">
+                </a>
+                <div class="overly">
+                  <div class="position-center">
+                    <h2>Daniele Gambetta</h2>
+                    <p>Gambit & Sabrin</p>
+                    <p>danceable</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <a href="/participants/jaxa.html">
+                  <img src="img/participants/jaxa.png" alt="Jaxa">
+                </a>
+                <div class="overly">
+                  <div class="position-center">
+                    <h2>Jaxa</h2>
+                    <p>Matias Hancke</p>
+                    <p>experimental</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <a href="/participants/jm.html">
+                  <img src="img/participants/jm.png" alt="FoxDot Part 1">
+                </a>
+                <div class="overly">
+                  <div class="position-center">
+                    <h2>FoxDot Part 1</h2>
+                    <p>Jens Meisner</p>
+                    <p>workshop</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <a href="/participants/kittyclock.html">
+                  <img src="img/participants/kittyclock.png" alt="KittyClock">
+                </a>
+                <div class="overly">
+                  <div class="position-center">
+                    <h2>KittyClock</h2>
+                    <p>Vlad</p>
+                    <p>danceable</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <a href="/participants/lerig.html">
+                  <img src="img/participants/lerig.png" alt="LeRig">
+                </a>
+                <div class="overly">
+                  <div class="position-center">
+                    <h2>LeRig</h2>
+                    <p>PitchGlitch</p>
+                    <p>danceable</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <a href="/participants/lixt.html">
+                  <img src="img/participants/lixt.png" alt="lixt">
+                </a>
+                <div class="overly">
+                  <div class="position-center">
+                    <h2>lixt</h2>
+                    <p>Rafael Bresciani</p>
+                    <p>experimental</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <a href="/participants/nabir.html">
+                  <img src="img/participants/nabir.png" alt="Nabir">
+                </a>
+                <div class="overly">
+                  <div class="position-center">
+                    <h2>Nabir</h2>
+                    <p>Lorenzo Berretti</p>
+                    <p>danceable</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <a href="/participants/pit.html">
+                  <img src="img/participants/pit.png" alt="fox & beat">
+                </a>
+                <div class="overly">
+                  <div class="position-center">
+                    <h2>fox & beat</h2>
+                    <p>hitchhiker N/A</p>
+                    <p>workshop</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <a href="/participants/ranura.html">
+                  <img src="img/participants/ranura.png" alt="Ranura Vacía">
+                </a>
+                <div class="overly">
+                  <div class="position-center">
+                    <h2>Ranura Vacía</h2>
+                    <p>Luis Ángel Orduña Gutiérrez</p>
+                    <p>experimental</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <a href="/participants/sinewavesurfer.html">
+                  <img src="img/participants/sinewavesurfer.png" alt="SineWaveSurfer">
+                </a>
+                <div class="overly">
+                  <div class="position-center">
+                    <h2>SineWaveSurfer</h2>
+                    <p>Anselm Weber & Jakob Schreiber</p>
+                    <p>danceable</p>
+                  </div>
+                </div>
+              </div>
+              
+          </div>
+    </div>
+</section>
+
+
+<!-- <section id="portfolio-work">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+              <div class="portfolio-menu">
+                <ul>
+                    <li class="filter" data-filter="all">All</li>
+                    
+                    
+                </ul>
+              </div>
+              <div class="portfolio-contant">
+                <ul id="portfolio-contant-active">
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section> -->
+
+
+
+    <!-- footer Start -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer-manu">
+  <ul>
+    <li><a href="timetable.html">Schedule</a></li>
+    <li><a href="news.html">Get News</a></li>
+    <li><a href="avlog.html">AVLog</a></li>
+    <li><a href="about-us.html">About Us</a></li>
+    <li><a href="contact.html">Contact us</a></li>
+  </ul>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  <script>document.write('<script src="https://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+    </body>
+</html>

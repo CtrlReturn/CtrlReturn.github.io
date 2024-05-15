@@ -6,9 +6,45 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Apr 2024 14:56:47 +0200</pubDate>
-    <lastBuildDate>Wed, 10 Apr 2024 14:56:47 +0200</lastBuildDate>
+    <pubDate>Wed, 15 May 2024 12:22:10 +0200</pubDate>
+    <lastBuildDate>Wed, 15 May 2024 12:22:10 +0200</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>CtrlReturn 2024 &gt;&gt; Videos of Workshops</title>
+        <description>&lt;h4 id=&quot;ctrlreturn-2024-performances&quot;&gt;CtrlReturn 2024 Performances&lt;/h4&gt;
+&lt;p&gt;After a successful event, we want to give you and all people interested in a chance
+to watch the workshops happened that day.
+&lt;br /&gt;
+&lt;em&gt;Follow the link to our YouTube channel:&lt;/em&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=xoewiKCDamA&amp;amp;list=PLXO2jdF-2xiiqs8HaY_D0yp8oTHYAnKgz&quot; target=&quot;_blank&quot;&gt;Workshops Playlist&lt;/a&gt;&lt;em&gt;!&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 Apr 2024 22:00:00 +0200</pubDate>
+        <link>http://localhost:4000/posts/playlist-of-workshops/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/playlist-of-workshops/</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>CtrlReturn 2024 &gt;&gt; Videos of Performances</title>
+        <description>&lt;h4 id=&quot;ctrlreturn-2024-performances&quot;&gt;CtrlReturn 2024 Performances&lt;/h4&gt;
+&lt;p&gt;After a successful event, we want to give you and all people interested in a chance
+to watch most of the performances happening that day.
+&lt;br /&gt;
+&lt;em&gt;Follow the link to our YouTube channel:&lt;/em&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=Wi_WbsprSqk&amp;amp;list=PLXO2jdF-2xiikgPcOW4W4semW7EQKJ2dF&quot; target=&quot;_blank&quot;&gt;Performance Playlist&lt;/a&gt;&lt;em&gt;!&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 Apr 2024 17:00:00 +0200</pubDate>
+        <link>http://localhost:4000/posts/playlist-of-performances/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/playlist-of-performances/</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>Welcome to our Audio Video Blog</title>

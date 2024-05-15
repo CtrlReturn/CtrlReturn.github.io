@@ -43,4 +43,4 @@ In his short career he has already participated to numerous events:
 
 *Audio samples on* <a href="https://open.spotify.com/artist/5rnZk0rJWvn5Y2UaupsLLV?si=KxnfLKDaSK2LYeBy_RxENQ" target="_blank">spotify</a> *!*
 
-*Find more info on my* <a href="https://www.instagram.com/lb_nabir" target="_blank">website</a> *!*
+*Find more info on my* <a href="https://www.instagram.com/nabir___/" target="_blank">website</a> *!*

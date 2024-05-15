@@ -1,15 +1,15 @@
 - icon: "ion-headphone"
   title: "Live-Coding Audio"
-  content: Using Software like FoxDot, Tidal Cycles, or SonicPi to compose music
+  content: Using Software e.g. FoxDot/Renardo, Tidal Cycles, SonicPi, or SuperCollider to compose music
 
 - icon: "ion-image"
   title: "Live-Coding Visuals"
-  content: Create interactive video loops and visual compositions
+  content: Create interactive video loops and visual compositions with software e.g. Hydra
 
 - icon: "ion-earth"
-  title: "Online Live Stream"
-  content: Performances are live-streamed. Workshops are recorded and published
+  title: "Together in real-time"
+  content: Collaborative jamming IRL or online using Troop or Flok
 
 - icon: "icon ion-coffee"
   title: "Networking"
-  content: Use the chance to mingle with fellow Coder and Artists
+  content: As Newbie or Expert, this is a good opportunity to share your passion with others

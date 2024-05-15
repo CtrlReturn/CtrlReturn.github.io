@@ -17,17 +17,26 @@ h5,
 h6 {
   font-family: 'Roboto', monospace;
 }
-h2 {
+h1 {
   font-size: 42px;
   font-weight: 400;
 }
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
 h3 {
-  font-size: 38px;
+  font-size: 32px;
+  font-weight: 300;
+}
+h4 {
+  font-size: 28px;
   font-weight: 300;
 }
 p {
   font-size: 21px;
   line-height: 28px;
+  color: #7B7B7B;
 }
 ul {
   padding: 0;
@@ -37,8 +46,15 @@ ul {
 a,
 a:active,
 a:focus,
+a {
+  color: #ce0000 !important;
+}
 a:active {
   text-decoration: none !important;
+  background: #ffffff !important;
+}
+a:focus {
+  background: #ffffff !important;
 }
 .section-title {
   margin-bottom: 70px;
@@ -57,7 +73,7 @@ a:active {
 	Header Start
 --*/
 header {
-  background: #003049;
+  background: #540000;
   padding: 20px 0;
 }
 header .navbar {
@@ -75,12 +91,15 @@ header .navbar-default .navbar-nav {
   padding-top: 10px;
 }
 header .navbar-default .navbar-nav li a {
-  color: #ffffff;
+  color: #ffffff !important;
   padding: 10px 26px;
   font-size: 16px;
 }
+font header .navbar-default .navbar-nav li a:active {
+  background: #00000 !important;
+}
 font header .navbar-default .navbar-nav li a:hover {
-  color: #0082c5;
+  color: #540000;
 }
 /*---------------------------------------------
 					Index Start
@@ -92,8 +111,8 @@ font header .navbar-default .navbar-nav li a:hover {
   background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 2% 0%;
-  padding: 200px 0 280px 0;
+  background-position: 2% 30%;
+  padding: 200px 0 200px 0;
   position: relative;
 }
 #slider:before {
@@ -109,22 +128,23 @@ font header .navbar-default .navbar-nav li a:hover {
   opacity: 0.7;
 }
 #slider .block {
-  color: #E3E3E4;
+  color: #f1f1f1;
 }
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 52px;
+  font-weight: 300;
+  font-size: 56px;
   line-height: 60px;
   letter-spacing: 10px;
   padding-bottom: 45px;
 }
 #slider .block p {
-  font-size: 23px;
-  line-height: 40px;
+  font-size: 26px;
+  line-height: 30px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 3px;
+  color: #d2d2d2;
 }
 
 /*--
@@ -132,14 +152,15 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #avlog, #post {
     padding: 50px 0 40px;
-    background-color: #f6f0e2;
+    background-color: #090909;
+    color: #7B7B7B;
 }
 /*--
 	wrapper Start
 --*/
 #intro {
   padding: 100px 0;
-  background-color: #f6f0e2;
+  background-color: #090909;
 }
 #intro .block h2 {
   padding-top: 35px;
@@ -166,19 +187,19 @@ font header .navbar-default .navbar-nav li a:hover {
 #service {
   text-align: center;
   padding: 90px 0;
-  background-color: #f6f0e2;
+  background-color: #090909;
 }
 #service .service-item {
   padding-bottom: 30px;
 }
 #service .service-item i {
   font-size: 60px;
-  color: #4A4656;
+  color: #540000;
 }
 #service .service-item h4 {
   padding-top: 20px;
   margin: 0;
-  color: #666;
+  color: #888;
 }
 #service .service-item p {
   color: #888;
@@ -208,7 +229,7 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: #1d192c;
+  background: #2c1919;
   opacity: 0.8;
 }
 #call-to-action h2 {
@@ -260,11 +281,11 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 30px;
 }
 #feature p {
-  color: #8d8f92;
+  color: #928d8d;
   margin-bottom: 20px;
 }
 #feature .btn-view-works {
-  background: #655E7A;
+  background: #a50000;
   color: #fff;
   padding: 10px 20px;
 }
@@ -273,7 +294,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #testimonial {
   padding: 100px 0;
-  background-color: #f6f0e2;
+  background-color: #090909;
 }
 #testimonial .block h2 {
   line-height: 27px;
@@ -361,7 +382,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background: url("../img/slider-bg3.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
-  padding-bottom: 107px;
+  padding-bottom: 150px;
   position: relative;
   background-attachment: fixed;
 }
@@ -404,7 +425,8 @@ font header .navbar-default .navbar-nav li a:hover {
   background: url("../img/slider-bg2.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
-  padding-bottom: 107px;
+  padding-bottom: 150px;
+  background-position: 0% 30%;
   position: relative;
   background-attachment: fixed;
 }
@@ -446,7 +468,8 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work {
   overflow: hidden;
   padding: 40px 0;
-  background-color: #f6f0e2;
+  background-color: #090909;
+  color: #7B7B7B;
 }
 #portfolio-work .block .portfolio-menu {
   padding-bottom: 30px;
@@ -469,7 +492,7 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 #portfolio-work .block .portfolio-menu ul .active {
-  color: #655E7A;
+  color: #a50000;
   position: relative;
 }
 #portfolio-work .block .portfolio-menu ul .active:before {
@@ -544,7 +567,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work .block .portfolio-contant ul li a span {
   font-style: italic;
   font-size: 13px;
-  color: #655E7A;
+  color: #a50000;
 }
 #portfolio-work .block .portfolio-contant ul img {
   width: 100%;
@@ -667,7 +690,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+  background: linear-gradient(to left, #ad3636, #2c1c1c 70%);
   opacity: 0.8;
 }
 #slider-contact .block {
@@ -697,7 +720,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #contact-form {
   padding-top: 70px;
   padding-bottom: 35px;
-  background-color: #f6f0e2;
+  background-color: #090909;
 }
 #contact-form .block form .form-group {
   padding-bottom: 15px;
@@ -724,7 +747,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #contact-form .block button {
   width: 100%;
   height: 60px;
-  background: #47424C;
+  background: #4c4242;
   border: none;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -752,7 +775,7 @@ font header .navbar-default .navbar-nav li a:hover {
   display: inline-block;
 }
 .social-icons i {
-  color: #2C2C2C;
+  color: #540000;
   margin-right: 25px;
   font-size: 25px;
 }
@@ -820,7 +843,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	footer Start
 --*/
 footer {
-  background: #669bbc;
+  background: #540000;
   text-align: center;
   padding-top: 48px;
   padding-bottom: 55px;
@@ -828,10 +851,10 @@ footer {
 footer p {
   font-size: 13px;
   line-height: 25px;
-  color: #f6f0e2;
+  color: #090909;
 }
 footer a {
-  color: #595959;
+  color: #ffffff;
 }
 footer .footer-manu {
   padding-bottom: 25px;
@@ -846,7 +869,7 @@ footer .footer-manu ul li {
 }
 footer .footer-manu ul li a {
   display: inline-block;
-  color: #494949;
+  color: #ffffff;
 }
 footer .footer-manu ul li a:hover {
   color: #000;
@@ -864,11 +887,13 @@ footer .footer-manu ul li a:hover {
 .tablecontainer {
   overflow-y: auto;
   height: 380px;
-  background: #fff;
+  background: #090909;
+  font-size: 18px;
 }
 
 /* remove default cell borders and ensures table width 100% of its container*/
 .tablecontainer table {
+  background-color: #090909;
   border-spacing: 0;
   width:95%;
 }
@@ -913,9 +938,15 @@ th:first-child div{
 
 /* alternate colors for rows */
 .tablecontainer tbody  tr:nth-child(even){
-     background-color: #ddd;
+     background-color: #090909;
 }
 
 .bg {
-  background-color: #ddd;
+  background-color: #090909;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #090909 !important;
+    border-color: #ce0000 !important;
+    color: #ce0000 !important;
 }

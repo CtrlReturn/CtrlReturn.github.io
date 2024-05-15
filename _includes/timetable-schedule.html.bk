@@ -1,0 +1,125 @@
+<!-- Portfolio Start -->
+<section id="portfolio-work">
+  <div class=container>
+  <h1>c-base time</h1>
+  </div>
+  <div class="headercontainer">
+    <div class="tablecontainer">
+      <p></p>
+      <p></p>
+      <table border="4" cellspacing="0" align="center">
+          <!--<caption>Timetable</caption>-->
+        <thead>
+          <tr>
+              <td align="center" height="50" width="100"><br>
+                  <b></b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>10:30-11:00</b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>11:00-12:00</b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>12:00-13:00</b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>13:00-14:00</b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>14:00-15:00</b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>15:00-16:00</b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>16:00-17:00</b>
+              </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <td align="center" height="25"><b>Workshops</b><br>Workshop Module</td>
+              <td align="center" height="25">Wake up Coffee</td>
+              <td align="center" height="25"><b>Introduction to FoxDot</b><br><i>with Jens Meisner</i></td>
+              <td align="center" height="25"><b>LiveCoding Setup</b><br><i>with crcdng</i></td>
+              <td align="center" height="25"><b>Introduction to Renardo I</b><br><i>with Jules Cipher</i></td>
+              <td align="center" height="25"><b>Introduction to Renardo II</b><br><i>with Jules Cipher</i></td>
+              <td align="center" height="25"><b>fox & beat</b><br><i>with hitchhiker pit</i></td>
+              <td align="center" height="25"><b>Estuary Intro</b><br><i>with Alexandra Cardenas</i></td>
+          </tr>
+          <tr>
+              <td align="center" height="25"><b>Collaborative Jam</b><br>Main Module</td>
+              <td colspan="2" align="center" height="25"><b>------------------------------</b></td>
+              <td colspan="4" align="center" height="25"><b>3 round tables to practice together collaborative music jam via Troop (Wifi)</b><br><i>Don't forget to bring your laptop and headphones</i></td>
+              <td align="center" height="25"><b>-------------</b></td>
+          </tr>
+        </tbody>
+      </table>
+      <p></p>
+      <table border="4" cellspacing="0" align="center">
+          <!--<caption>Timetable</caption>-->
+        <thead>
+          <tr>
+              <td align="center" height="50" width="100"><br>
+                  <b></b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>16:00-16:30</b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>16:30-17:15</b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>17:15-18:00</b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>18:00-18:45</b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>18:45-19:15</b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>19:15-20:00</b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>20:00-20:30</b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>20:30-21:00</b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>21:00-21:30</b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>21:30-22:00</b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>22:00-22:45</b>
+              </td>
+              <td align="center" height="50" width="100">
+                  <b>22:45-0:00</b>
+              </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <td align="center" height="25"><b>Performance</b><br>Main Module</td>
+              <td align="center" height="25">Gambit & Sabrin</td>
+              <td align="center" height="25">Elie Gavoty</td>
+              <td align="center" height="25">Ranura Vacia</td>
+              <td align="center" height="25">lixt</td>
+              <td align="center" height="25">Jaxa</td>
+              <td align="center" height="25">SineWaveSurfer</td>
+              <td align="center" height="25">Alexandra Cardenas</td>
+              <td align="center" height="25">Besch</td>
+              <td align="center" height="25">Bito</td>
+              <td align="center" height="25">LeRig</td>
+              <td align="center" height="25">Nabìr</td>
+              <td align="center" height="25">KittyClock</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
