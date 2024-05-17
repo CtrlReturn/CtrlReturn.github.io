@@ -879,10 +879,11 @@ footer .footer-manu ul li a:hover {
 /* this is for the main container of the table, also sets the height of the fixed header row */
 .headercontainer {
   position: relative;
-  border: 1px solid #222;
+  border: 0px solid #1c1c1c;
   padding-top: 37px;
   background: #000;
 }
+
 /* this is for the data area that is scrollable */
 .tablecontainer {
   overflow-y: auto;
@@ -895,18 +896,22 @@ footer .footer-manu ul li a:hover {
 .tablecontainer table {
   background-color: #090909;
   border-spacing: 0;
-  width:95%;
+  border-color: #7b7b7b;
+  width:85%;
 }
 
 /* add a thin border to the left of cells, but not the first */
 .tablecontainer td + td {
-  border-left:1px solid #eee;
+  border-left:0px solid #eee;
+  border-color: #7b7b7b;
+  border: none;
 }
 
 /* cell padding and bottom border */
 .tablecontainer td, th {
-  border-bottom:1px solid #eee;
+  border-bottom:0px solid #7b7b7b;
   padding: 5px;
+  border: none;
 }
 
 /* make the default header height 0 and make text invisible */
@@ -917,6 +922,7 @@ footer .footer-manu ul li a:hover {
     line-height: 0;
     visibility: hidden;
     white-space: nowrap;
+    border: none;
 }
 
 /* reposition the divs in the header cells and place in the blank area of the headercontainer */
@@ -929,8 +935,9 @@ footer .footer-manu ul li a:hover {
   top: 0;
   margin-left: -10px;
   line-height: normal;
-  border-left: 1px solid #222;
+  border-left: 0px solid #222;
 }
+
 /* prevent the left border from above appearing in first div header */
 th:first-child div{
   border: none;
