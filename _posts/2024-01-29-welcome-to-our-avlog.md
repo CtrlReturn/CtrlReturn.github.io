@@ -1,9 +1,9 @@
 ---
 title: Welcome to our Audio Video Blog
-date: 2024-01-29 17:00
+date: 2024-01-29
 author: PitchGlitch
 image:
-video: 
+video:
 lead: Welcome to our Audio Video Blog, that you will enable you to follow our Event from everywhere in the world.
 subtitle: Each recorded and streamed workshop and performance will be posted here!
 categories: post

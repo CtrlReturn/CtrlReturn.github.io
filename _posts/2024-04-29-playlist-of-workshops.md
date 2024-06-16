@@ -1,9 +1,9 @@
 ---
 title: CtrlReturn 2024 >> Videos of Workshops
-date: 2024-04-29 22:00
+date: 2024-04-29
 author: PitchGlitch
 image:
-video:
+video: https://www.youtube.com/embed/videoseries?si=dNLQJ5T7IIjaWgEi&amp;list=PLXO2jdF-2xiiqs8HaY_D0yp8oTHYAnKgz
 lead: YouTube playlist of workshops hold at CtrlReturn 2024
 subtitle: Enjoy our video recordings of given workshops
 categories: post

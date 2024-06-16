@@ -9,10 +9,7 @@
                   <!-- <a href="{{ post.url | relative_url }}">{{ post.title }}</a>-->
                   <a style="color:#540000" href="{{ post.url | prepend: 2024/ | replace: '//', '/' }}">{{ post.title }}</a>
                 </h2>
-                <p class="lead">
-                  by {{ post.author }}
-                </p>
-                <p><span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date: "%B %d, %Y" }} </p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on {{ post.date | date: "%B %d, %Y" }} </p>
                 {% if page.image %}
                 <img class="img-responsive" src="{{ post.image }}" alt="{{ post.title }}">
                 <hr>

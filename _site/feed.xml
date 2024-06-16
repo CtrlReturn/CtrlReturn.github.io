@@ -6,9 +6,158 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 17 May 2024 14:47:46 +0200</pubDate>
-    <lastBuildDate>Fri, 17 May 2024 14:47:46 +0200</lastBuildDate>
+    <pubDate>Sun, 16 Jun 2024 12:33:49 +0200</pubDate>
+    <lastBuildDate>Sun, 16 Jun 2024 12:33:49 +0200</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>CtrlReturn &gt;&gt; Jam&amp;Learn 1</title>
+        <description>&lt;h4 id=&quot;ctrlreturn-jamlearn-no-1&quot;&gt;CtrlReturn » Jam&amp;amp;Learn No. 1&lt;/h4&gt;
+&lt;p&gt;In our first meetup, we spend time on an installation procedure, particularly
+for macOS.&lt;/p&gt;
+
+&lt;p&gt;After we installed all needed software and python modules (tkinter not necessary for meetup)…&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://supercollider.github.io/downloads&quot; target=&quot;_blank&quot;&gt;Install SuperCollider&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://supercollider.github.io/sc3-plugins/&quot; target=&quot;_blank&quot;&gt;Install SuperCollider Plugins&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitlab.com/iShapeNoise/foxdot&quot; target=&quot;_blank&quot;&gt;Install PitchGlitch FoxDot Distro&lt;/a&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Install python module playsound via pip&lt;/li&gt;
+      &lt;li&gt;“git clone” Distro onto your machine and run “python3 setup.py install”&lt;/li&gt;
+      &lt;li&gt;Start SuperCollider IDE, execute “Quarks.gui” and activate “FoxDot”&lt;/li&gt;
+      &lt;li&gt;Next execute “FoxDot.start”
+&lt;br /&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;or &lt;a href=&quot;https://renardo.org/#/&quot; target=&quot;_blank&quot;&gt;Install FoxDot/Renardo&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/munshkr/flok&quot; target=&quot;_blank&quot;&gt;Install Flok&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;…we jammed a byte/bit.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;tips&quot;&gt;Tips:&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;1. Start your synth in low amplify=0.1 and increase over time to get it fade intro!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;2. Do not use octaves below 3 or above 9!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;3. To avoid harm to ear and machine use in SuperCollider “Quarks.gui” to install “SafetyNet”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;it-was-fun-time-and-i-hope-we-see-more-visual-coding-next-time-as-well--&quot;&gt;It was fun time, and I hope we see more visual coding next time as well! :-)&lt;/h4&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Clock.bpm = 125
+print(SynthDefs)
+
+c1 &amp;gt;&amp;gt; play(&quot;t &quot;, amp=1)
+
+Scale.default=Scale.minor
+
+# `x` - Closed hi-hat or snare hit
+# `o` - Bass drum hit
+# `-` - Rest or silent beat
+# `s` - Snare drum hit
+# `*` - Crash cymbal
+# `.` - Shorter rest (typically half a beat)
+# `i` - High tom
+# `I` - Low tom
+# `[` and `]` - Grouping for chords or tuplets
+# `{` and `}` - Polyrhythm grouping
+# `&amp;lt;` and `&amp;gt;` - Alternative patterns that switch every cycle
+
+Master().hpf = Pvar([linvar([0, 2000], [16, 0]), 2000, 0], [16, 16, 32], start=nextbar)
+Master().hpf=0
+
+x=4
+dur=[1/x, 1/5-x]
+
+g8 &amp;gt;&amp;gt; play(&quot;x...&quot;)
+
+s9 &amp;gt;&amp;gt; saw(lpf=sinvar([100,2000], 4), amp=3).solo(0)
+
+# [&apos;loop&apos;, &apos;stretch&apos;, &apos;play1&apos;, &apos;play2&apos;, &apos;abass&apos;, &apos;acidbass&apos;, &apos;alva&apos;, &apos;ambi&apos;, &apos;angel&apos;, &apos;angst&apos;, &apos;arpy&apos;, &apos;audioin&apos;, &apos;bass&apos;, &apos;bassguitar&apos;, &apos;bbass&apos;, &apos;bchaos&apos;,
+#&apos;bell&apos;, &apos;bellmod&apos;, &apos;benoit&apos;, &apos;birdy&apos;, &apos;blip&apos;, &apos;blips&apos;, &apos;bnoise&apos;, &apos;borgan&apos;, &apos;bounce&apos;, &apos;bphase&apos;, &apos;brass&apos;, &apos;brown&apos;, &apos;bug&apos;, &apos;charm&apos;, &apos;chimebell&apos;, &apos;chipsy&apos;, &apos;cicada&apos;, &apos;click&apos;, &apos;clip&apos;, &apos;cluster&apos;, &apos;combs&apos;, &apos;creep&apos;, &apos;cricket&apos;, &apos;crunch&apos;, &apos;cs80lead&apos;, &apos;dab&apos;, &apos;dafbass&apos;, &apos;dbass&apos;, &apos;dblbass&apos;, &apos;dirt&apos;, &apos;donk&apos;, &apos;donk1&apos;, &apos;donk2&apos;, &apos;donkysub&apos;, &apos;donorgan&apos;, &apos;dopple&apos;, &apos;drone&apos;, &apos;dub&apos;, &apos;dust&apos;, &apos;dustv&apos;, &apos;ebass&apos;, &apos;ecello&apos;, &apos;eeri&apos;, &apos;eoboe&apos;, &apos;epiano&apos;, &apos;faim&apos;, &apos;faim2&apos;, &apos;fbass&apos;, &apos;feel&apos;, &apos;filthysaw&apos;, &apos;flute&apos;, &apos;fm&apos;, &apos;fmbass&apos;, &apos;fmrhodes&apos;, &apos;four&apos;, &apos;fuzz&apos;, &apos;garfield&apos;, &apos;glass&apos;, &apos;glitchbass&apos;, &apos;glitcher&apos;, &apos;gong&apos;, &apos;grat&apos;, &apos;gray&apos;, &apos;growl&apos;, &apos;harp&apos;, &apos;hnoise&apos;, &apos;hoover&apos;, &apos;hydra&apos;, &apos;jbass&apos;, &apos;kalimba&apos;, &apos;karp&apos;, &apos;keys&apos;, &apos;klank&apos;, &apos;ladder&apos;, &apos;lapin&apos;, &apos;laserbeam&apos;, &apos;latoo&apos;, &apos;lazer&apos;, &apos;lfnoise&apos;, &apos;linesaw&apos;, &apos;longsaw&apos;, &apos;marimba&apos;, &apos;mhpad&apos;, &apos;mhping&apos;, &apos;moogbass&apos;, &apos;moogpluck&apos;, &apos;moogpluck2&apos;, &apos;noise&apos;, &apos;noisecomb&apos;, &apos;noisynth&apos;, &apos;noquarter&apos;, &apos;nylon&apos;, &apos;organ&apos;, &apos;organ2&apos;, &apos;orient&apos;, &apos;pads&apos;, &apos;pasha&apos;, &apos;pbass&apos;, &apos;phazer&apos;, &apos;piano&apos;, &apos;pianovel&apos;, &apos;pink&apos;, &apos;pluck&apos;, &apos;pmcrotal&apos;, &apos;ppad&apos;, &apos;prayerbell&apos;, &apos;prof&apos;, &apos;prophet&apos;, &apos;pulse&apos;, &apos;quin&apos;, &apos;radio&apos;, &apos;rave&apos;, &apos;razz&apos;, &apos;rhodes&apos;, &apos;rhpiano&apos;, &apos;ripple&apos;, &apos;risseto&apos;, &apos;rissetobell&apos;, &apos;rlead&apos;, &apos;rsaw&apos;, &apos;rsin&apos;, &apos;saw&apos;, &apos;sawbass&apos;, &apos;scatter&apos;, &apos;scrap&apos;, &apos;scratch&apos;, &apos;shore&apos;, &apos;sillyvoice&apos;, &apos;sine&apos;, &apos;sinepad&apos;, &apos;siren&apos;, &apos;sitar&apos;, &apos;snick&apos;, &apos;soft&apos;, &apos;soprano&apos;, &apos;sos&apos;, &apos;sosbell&apos;, &apos;space&apos;, &apos;spacesaw&apos;, &apos;spark&apos;, &apos;spick&apos;, &apos;sputter&apos;, &apos;square&apos;, &apos;squish&apos;, &apos;ssaw&apos;, &apos;star&apos;, &apos;steeldrum&apos;, &apos;strings&apos;, &apos;subbass&apos;, &apos;subbass2&apos;, &apos;supersaw&apos;, &apos;swell&apos;, &apos;tb303&apos;, &apos;total&apos;, &apos;tremsynth&apos;, &apos;tribell&apos;, &apos;tritri&apos;, &apos;triwave&apos;, &apos;tubularbell&apos;, &apos;twang&apos;, &apos;tworgan&apos;, &apos;tworgan2&apos;, &apos;tworgan3&apos;, &apos;tworgan4&apos;, &apos;varicelle&apos;, &apos;varsaw&apos;, &apos;vibass&apos;, &apos;video&apos;, &apos;vinsine&apos;, &apos;viola&apos;, &apos;virus&apos;, &apos;waves&apos;, &apos;windmaker&apos;, &apos;wobble&apos;, &apos;wobblebass&apos;, &apos;wsaw&apos;, &apos;wsawbass&apos;, &apos;xylophone&apos;, &apos;zap&apos;]
+
+a9 &amp;gt;&amp;gt; acidbass([0,2,1,9], oct=2, dur=[1/8, 1/4, 1/8, 1/2], bend=[0,1,0,1/2,0,0,1], room=4/5, mix=1/2, amplify=2/3*P[1, 1/2, 1/2], lpf=2000)
+
+a2 &amp;gt;&amp;gt; play(&apos;x &apos;)
+a3 &amp;gt;&amp;gt; play(&apos;[--]&apos;, hpf=5000)
+a4 &amp;gt;&amp;gt; play(&apos;  g &apos;)
+
+# Shows attributes of all SynthDefs player
+print(Player.get_attributes())
+
+# Shows all available fx with keywords
+print(Player.get_fxs())
+
+
+x1 &amp;gt;&amp;gt; play(&quot;{[ v]  }&quot;, lpf=200)
+
+# Show xtra attributes of particular synth
+print(Player(&quot;piano&quot;).get_extra_attributes())
+
+print(Player(&quot;piano&quot;).info())
+
+b3 &amp;gt;&amp;gt; play(&quot;-&quot;)
+
+b1 &amp;gt;&amp;gt; bass(p2.degree+[0,0,3], oct=3, dur=PDur([2,3],4), amplify=3/4)
+
+a5 &amp;gt;&amp;gt; arpy(a1.degree, dur=PDur(5, 8), formant=2, shape=1, amplify=3/5, amp=1)
+
+b1 &amp;gt;&amp;gt; play(&quot;S&quot;, dur=1, delay=1/2, echo=[0, 0, [1/2, 0]], hpf=900, hpr=1/4, amplify=1/2)
+
+n2 &amp;gt;&amp;gt; angel([0], dur=[1, 0.5, 0.5], oct=[(4, 5), (5, 6), [(3, 4), (6, 4)]], amplify=2)
+
+p2 &amp;gt;&amp;gt; pluck([4, 2, 0], amplify=0.6).often(&quot;stutter&quot;, PRand(1,4), oct=PRand(3,6))
+
+b1 &amp;gt;&amp;gt; birdy(amp=1, dur=5, oct=5).stop()
+
+c1 &amp;gt;&amp;gt; blips(amp=1).stop()
+
+Scale.default = Scale.minor
+
+print(globals())
+
+print(Scale.default)
+
+print(SynthDefs)
+
+s1 &amp;gt;&amp;gt; angel([0])
+
+d1 &amp;gt;&amp;gt; play(&quot;&amp;lt;(x )-o{[--------]-}&amp;gt;&amp;lt;1  2   3   4   &amp;gt;&quot;, room=PRand([1,50]) / 10, amp=0.4)
+
+b1 &amp;gt;&amp;gt; play(&quot;Vi&quot;, sample=1, dur=2, delay=[0, 1/2], amplify=2/3, amp=1)
+
+b2 &amp;gt;&amp;gt; play(&quot;s&quot;, dur=1, delay=1/2, amplify=2/3)
+
+p1 &amp;gt;&amp;gt; piano([0, 2, 4], oct=4, dur=[4,2], amplify=7/8, amp=0.5).stop()
+
+print(Scale.major)
+
+p2 &amp;gt;&amp;gt; piano23wegb3([(0, 1, 2), (2, 4), (7,9)], oct=5, dur=PDur([3,4],8), delay=2, amplify=4/8, amp=2)
+
+d1 &amp;gt;&amp;gt; play(&quot;x-&quot;)
+
+a1 &amp;gt;&amp;gt; acidbass([1,2,0], amplify=0.2)
+
+n3 &amp;gt;&amp;gt; abass(var([0, 2], [3, 1]), oct=6, dur=3, chop=6, pan=(-2/3, 2/3), amp=linvar([1, 0], [3, 0])).solo(0)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Sun, 16 Jun 2024 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/posts/jam&learn1/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/jam&learn1/</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>CtrlReturn 2024 &gt;&gt; Videos of Workshops</title>
@@ -19,7 +168,7 @@ to watch the workshops happened that day.
 &lt;em&gt;Follow the link to our YouTube channel:&lt;/em&gt;
 &lt;a href=&quot;https://www.youtube.com/watch?v=xoewiKCDamA&amp;amp;list=PLXO2jdF-2xiiqs8HaY_D0yp8oTHYAnKgz&quot; target=&quot;_blank&quot;&gt;Workshops Playlist&lt;/a&gt;&lt;em&gt;!&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 29 Apr 2024 22:00:00 +0200</pubDate>
+        <pubDate>Mon, 29 Apr 2024 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/posts/playlist-of-workshops/</link>
         <guid isPermaLink="true">http://localhost:4000/posts/playlist-of-workshops/</guid>
         
@@ -37,7 +186,7 @@ to watch most of the performances happening that day.
 &lt;em&gt;Follow the link to our YouTube channel:&lt;/em&gt;
 &lt;a href=&quot;https://www.youtube.com/watch?v=Wi_WbsprSqk&amp;amp;list=PLXO2jdF-2xiikgPcOW4W4semW7EQKJ2dF&quot; target=&quot;_blank&quot;&gt;Performance Playlist&lt;/a&gt;&lt;em&gt;!&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 29 Apr 2024 17:00:00 +0200</pubDate>
+        <pubDate>Mon, 29 Apr 2024 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/posts/playlist-of-performances/</link>
         <guid isPermaLink="true">http://localhost:4000/posts/playlist-of-performances/</guid>
         
@@ -56,7 +205,7 @@ to watch most of the performances happening that day.
 &lt;em&gt;and&lt;/em&gt;
 &lt;a href=&quot;https://www.facebook.com/ctrlreturn/&quot; target=&quot;_blank&quot;&gt;facebook&lt;/a&gt; &lt;em&gt;!&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 29 Jan 2024 17:00:00 +0100</pubDate>
+        <pubDate>Mon, 29 Jan 2024 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/posts/welcome-to-our-avlog/</link>
         <guid isPermaLink="true">http://localhost:4000/posts/welcome-to-our-avlog/</guid>
         

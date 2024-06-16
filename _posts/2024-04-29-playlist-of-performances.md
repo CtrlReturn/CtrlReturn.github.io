@@ -1,9 +1,9 @@
 ---
 title: CtrlReturn 2024 >> Videos of Performances
-date: 2024-04-29 17:00
+date: 2024-04-29
 author: PitchGlitch
 image:
-video:
+video: https://www.youtube.com/embed/videoseries?si=Sy6CWxINxh6xf_RI&amp;list=PLXO2jdF-2xiikgPcOW4W4semW7EQKJ2dF
 lead: YouTube playlist of performances
 subtitle: Enjoy our video recordings of our performing participants
 categories: post

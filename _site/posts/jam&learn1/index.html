@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CtrlReturn 2024 >> Videos of Workshops</title>
+    <title>CtrlReturn >> Jam&Learn 1</title>
     <meta name="description" content="Dive into the intersection of music and Python at ctrlreturn.de Berlin's ultimate live coding event. Experience real-time music creation, workshops, and the unique vibes of our vibrant community. Unleash your creativity with Python programming like never before. Join us for a tech-meets-music adventure!
 ">
     <meta name="keywords" content="Live-coding event, Music Coders Event, Python Arts, c-base Berlin, Creative Coder Event">
@@ -78,9 +78,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>CtrlReturn 2024 >> Videos of Workshops</h2>
-          
-            <p>Enjoy our video recordings of given workshops</p>
+          <h2>CtrlReturn >> Jam&Learn 1</h2>
           
         </div>
       </div>
@@ -97,35 +95,162 @@
             <div class="col-lg-8">
               <!-- Post Content -->
               
-              <p class="lead">YouTube playlist of workshops hold at CtrlReturn 2024</p>
+              <p class="lead">First Meetup to learn by coding audio/visuals</p>
               
                 <!-- Blog Post -->
                    
                    <!-- Preview Video -->
                    
-                   <iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?si=dNLQJ5T7IIjaWgEi&amp;list=PLXO2jdF-2xiiqs8HaY_D0yp8oTHYAnKgz" frameborder="0" allowfullscreen="1"> </iframe>
+                   <iframe width="640" height="360" src="https://www.youtube.com/embed/VGTNzDhbO6o?si=CI79eVykZO7ROlpy" frameborder="0" allowfullscreen="1"> </iframe>
                    
                 <hr>
-                <h4 id="ctrlreturn-2024-performances">CtrlReturn 2024 Performances</h4>
-<p>After a successful event, we want to give you and all people interested in a chance
-to watch the workshops happened that day.
-<br />
-<em>Follow the link to our YouTube channel:</em>
-<a href="https://www.youtube.com/watch?v=xoewiKCDamA&amp;list=PLXO2jdF-2xiiqs8HaY_D0yp8oTHYAnKgz" target="_blank">Workshops Playlist</a><em>!</em></p>
+                <h4 id="ctrlreturn-jamlearn-no-1">CtrlReturn » Jam&amp;Learn No. 1</h4>
+<p>In our first meetup, we spend time on an installation procedure, particularly
+for macOS.</p>
+
+<p>After we installed all needed software and python modules (tkinter not necessary for meetup)…</p>
+
+<ol>
+  <li><a href="https://supercollider.github.io/downloads" target="_blank">Install SuperCollider</a></li>
+  <li><a href="https://supercollider.github.io/sc3-plugins/" target="_blank">Install SuperCollider Plugins</a></li>
+  <li><a href="https://gitlab.com/iShapeNoise/foxdot" target="_blank">Install PitchGlitch FoxDot Distro</a>
+    <ol>
+      <li>Install python module playsound via pip</li>
+      <li>“git clone” Distro onto your machine and run “python3 setup.py install”</li>
+      <li>Start SuperCollider IDE, execute “Quarks.gui” and activate “FoxDot”</li>
+      <li>Next execute “FoxDot.start”
+<br /></li>
+    </ol>
+
+    <p>or <a href="https://renardo.org/#/" target="_blank">Install FoxDot/Renardo</a></p>
+  </li>
+  <li><a href="https://github.com/munshkr/flok" target="_blank">Install Flok</a></li>
+</ol>
+
+<p>…we jammed a byte/bit.</p>
+
+<hr />
+
+<h4 id="tips">Tips:</h4>
+
+<p><em>1. Start your synth in low amplify=0.1 and increase over time to get it fade intro!</em></p>
+
+<p><em>2. Do not use octaves below 3 or above 9!</em></p>
+
+<p><em>3. To avoid harm to ear and machine use in SuperCollider “Quarks.gui” to install “SafetyNet”</em></p>
+
+<p><br /></p>
+
+<h4 id="it-was-fun-time-and-i-hope-we-see-more-visual-coding-next-time-as-well--">It was fun time, and I hope we see more visual coding next time as well! :-)</h4>
+
+<p><br /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Clock.bpm = 125
+print(SynthDefs)
+
+c1 &gt;&gt; play("t ", amp=1)
+
+Scale.default=Scale.minor
+
+# `x` - Closed hi-hat or snare hit
+# `o` - Bass drum hit
+# `-` - Rest or silent beat
+# `s` - Snare drum hit
+# `*` - Crash cymbal
+# `.` - Shorter rest (typically half a beat)
+# `i` - High tom
+# `I` - Low tom
+# `[` and `]` - Grouping for chords or tuplets
+# `{` and `}` - Polyrhythm grouping
+# `&lt;` and `&gt;` - Alternative patterns that switch every cycle
+
+Master().hpf = Pvar([linvar([0, 2000], [16, 0]), 2000, 0], [16, 16, 32], start=nextbar)
+Master().hpf=0
+
+x=4
+dur=[1/x, 1/5-x]
+
+g8 &gt;&gt; play("x...")
+
+s9 &gt;&gt; saw(lpf=sinvar([100,2000], 4), amp=3).solo(0)
+
+# ['loop', 'stretch', 'play1', 'play2', 'abass', 'acidbass', 'alva', 'ambi', 'angel', 'angst', 'arpy', 'audioin', 'bass', 'bassguitar', 'bbass', 'bchaos',
+#'bell', 'bellmod', 'benoit', 'birdy', 'blip', 'blips', 'bnoise', 'borgan', 'bounce', 'bphase', 'brass', 'brown', 'bug', 'charm', 'chimebell', 'chipsy', 'cicada', 'click', 'clip', 'cluster', 'combs', 'creep', 'cricket', 'crunch', 'cs80lead', 'dab', 'dafbass', 'dbass', 'dblbass', 'dirt', 'donk', 'donk1', 'donk2', 'donkysub', 'donorgan', 'dopple', 'drone', 'dub', 'dust', 'dustv', 'ebass', 'ecello', 'eeri', 'eoboe', 'epiano', 'faim', 'faim2', 'fbass', 'feel', 'filthysaw', 'flute', 'fm', 'fmbass', 'fmrhodes', 'four', 'fuzz', 'garfield', 'glass', 'glitchbass', 'glitcher', 'gong', 'grat', 'gray', 'growl', 'harp', 'hnoise', 'hoover', 'hydra', 'jbass', 'kalimba', 'karp', 'keys', 'klank', 'ladder', 'lapin', 'laserbeam', 'latoo', 'lazer', 'lfnoise', 'linesaw', 'longsaw', 'marimba', 'mhpad', 'mhping', 'moogbass', 'moogpluck', 'moogpluck2', 'noise', 'noisecomb', 'noisynth', 'noquarter', 'nylon', 'organ', 'organ2', 'orient', 'pads', 'pasha', 'pbass', 'phazer', 'piano', 'pianovel', 'pink', 'pluck', 'pmcrotal', 'ppad', 'prayerbell', 'prof', 'prophet', 'pulse', 'quin', 'radio', 'rave', 'razz', 'rhodes', 'rhpiano', 'ripple', 'risseto', 'rissetobell', 'rlead', 'rsaw', 'rsin', 'saw', 'sawbass', 'scatter', 'scrap', 'scratch', 'shore', 'sillyvoice', 'sine', 'sinepad', 'siren', 'sitar', 'snick', 'soft', 'soprano', 'sos', 'sosbell', 'space', 'spacesaw', 'spark', 'spick', 'sputter', 'square', 'squish', 'ssaw', 'star', 'steeldrum', 'strings', 'subbass', 'subbass2', 'supersaw', 'swell', 'tb303', 'total', 'tremsynth', 'tribell', 'tritri', 'triwave', 'tubularbell', 'twang', 'tworgan', 'tworgan2', 'tworgan3', 'tworgan4', 'varicelle', 'varsaw', 'vibass', 'video', 'vinsine', 'viola', 'virus', 'waves', 'windmaker', 'wobble', 'wobblebass', 'wsaw', 'wsawbass', 'xylophone', 'zap']
+
+a9 &gt;&gt; acidbass([0,2,1,9], oct=2, dur=[1/8, 1/4, 1/8, 1/2], bend=[0,1,0,1/2,0,0,1], room=4/5, mix=1/2, amplify=2/3*P[1, 1/2, 1/2], lpf=2000)
+
+a2 &gt;&gt; play('x ')
+a3 &gt;&gt; play('[--]', hpf=5000)
+a4 &gt;&gt; play('  g ')
+
+# Shows attributes of all SynthDefs player
+print(Player.get_attributes())
+
+# Shows all available fx with keywords
+print(Player.get_fxs())
+
+
+x1 &gt;&gt; play("{[ v]  }", lpf=200)
+
+# Show xtra attributes of particular synth
+print(Player("piano").get_extra_attributes())
+
+print(Player("piano").info())
+
+b3 &gt;&gt; play("-")
+
+b1 &gt;&gt; bass(p2.degree+[0,0,3], oct=3, dur=PDur([2,3],4), amplify=3/4)
+
+a5 &gt;&gt; arpy(a1.degree, dur=PDur(5, 8), formant=2, shape=1, amplify=3/5, amp=1)
+
+b1 &gt;&gt; play("S", dur=1, delay=1/2, echo=[0, 0, [1/2, 0]], hpf=900, hpr=1/4, amplify=1/2)
+
+n2 &gt;&gt; angel([0], dur=[1, 0.5, 0.5], oct=[(4, 5), (5, 6), [(3, 4), (6, 4)]], amplify=2)
+
+p2 &gt;&gt; pluck([4, 2, 0], amplify=0.6).often("stutter", PRand(1,4), oct=PRand(3,6))
+
+b1 &gt;&gt; birdy(amp=1, dur=5, oct=5).stop()
+
+c1 &gt;&gt; blips(amp=1).stop()
+
+Scale.default = Scale.minor
+
+print(globals())
+
+print(Scale.default)
+
+print(SynthDefs)
+
+s1 &gt;&gt; angel([0])
+
+d1 &gt;&gt; play("&lt;(x )-o{[--------]-}&gt;&lt;1  2   3   4   &gt;", room=PRand([1,50]) / 10, amp=0.4)
+
+b1 &gt;&gt; play("Vi", sample=1, dur=2, delay=[0, 1/2], amplify=2/3, amp=1)
+
+b2 &gt;&gt; play("s", dur=1, delay=1/2, amplify=2/3)
+
+p1 &gt;&gt; piano([0, 2, 4], oct=4, dur=[4,2], amplify=7/8, amp=0.5).stop()
+
+print(Scale.major)
+
+p2 &gt;&gt; piano23wegb3([(0, 1, 2), (2, 4), (7,9)], oct=5, dur=PDur([3,4],8), delay=2, amplify=4/8, amp=2)
+
+d1 &gt;&gt; play("x-")
+
+a1 &gt;&gt; acidbass([1,2,0], amplify=0.2)
+
+n3 &gt;&gt; abass(var([0, 2], [3, 1]), oct=6, dur=3, chop=6, pan=(-2/3, 2/3), amp=linvar([1, 0], [3, 0])).solo(0)
+</code></pre></div></div>
 
 
                 <hr>
 
                   
                   <span class="previous-link">
-                    <a rel="prev" href="/posts/playlist-of-performances/">Previous article</a>
+                    <a rel="prev" href="/posts/playlist-of-workshops/">Previous article</a>
                   </span>
                   
 
-                  
-                  <span class="next-link pull-right">
-                    <a rel="next" href="/posts/jam&learn1/">Next article</a>
-                  </span>
                   
 
                 <hr>
