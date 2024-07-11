@@ -112,19 +112,46 @@ for macOS.</p>
 
 <ol>
   <li><a href="https://supercollider.github.io/downloads" target="_blank">Install SuperCollider</a></li>
-  <li><a href="https://supercollider.github.io/sc3-plugins/" target="_blank">Install SuperCollider Plugins</a></li>
-  <li><a href="https://gitlab.com/iShapeNoise/foxdot" target="_blank">Install PitchGlitch FoxDot Distro</a>
-    <ol>
-      <li>Install python module playsound via pip</li>
-      <li>“git clone” Distro onto your machine and run “python3 setup.py install”</li>
-      <li>Start SuperCollider IDE, execute “Quarks.gui” and activate “FoxDot”</li>
-      <li>Next execute “FoxDot.start”
-<br /></li>
-    </ol>
+  <li><a href="https://supercollider.github.io/sc3-plugins/" target="_blank">Install SuperCollider
+Plugins</a>
+  3.</li>
+</ol>
 
-    <p>or <a href="https://renardo.org/#/" target="_blank">Install FoxDot/Renardo</a></p>
+<p>For Foxdot:</p>
+
+<p><a href="https://gitlab.com/iShapeNoise/foxdot" target="_blank">Install PitchGlitch FoxDot Distro</a>
+      1. Install python module playsound via pip
+      2. “git clone” Distro onto your machine and run “python3 setup.py install”
+      3. Start SuperCollider IDE, execute “Quarks.gui” and activate “FoxDot”
+    <br /></p>
+
+<p>For Renardo:
+  <a href="https://renardo.org/#/" target="_blank">Install FoxDot/Renardo</a></p>
+
+<ol>
+  <li>
+    <p><a href="https://github.com/munshkr/flok" target="_blank">Install Flok</a></p>
   </li>
-  <li><a href="https://github.com/munshkr/flok" target="_blank">Install Flok</a></li>
+  <li>
+    <p>Run SuperCollider via Renardo GUI, or open SuperCollider IDE and (if FoxDot
+execute “FoxDot.start”</p>
+  </li>
+  <li>
+    <p>Open Terminal and run following command</p>
+  </li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>For Renardo:
+
+npx flok-repl@latest -H wss://pitchglitch.cc:3000 -s ctrlreturn -t renardo -T user:YOURNAME
+
+For Foxdot:
+
+npx flok-repl@latest -H wss://pitchglitch.cc:3000 -s ctrlreturn -t renardo -T user:YOURNAME
+</code></pre></div></div>
+
+<ol>
+  <li>Open your browser and go to pitchglitch.cc:3000/s/ctrlreturn</li>
 </ol>
 
 <p>…we jammed a byte/bit.</p>
@@ -252,6 +279,10 @@ n3 &gt;&gt; abass(var([0, 2], [3, 1]), oct=6, dur=3, chop=6, pan=(-2/3, 2/3), am
                   
 
                   
+                  <span class="next-link pull-right">
+                    <a rel="next" href="/posts/jam&learn2/">Next article</a>
+                  </span>
+                  
 
                 <hr>
 
@@ -267,6 +298,9 @@ n3 &gt;&gt; abass(var([0, 2], [3, 1]), oct=6, dur=3, chop=6, pan=(-2/3, 2/3), am
                         <div class="col-lg-12">
                             <ul class="list-unstyled">
                               
+                                <a href="/posts/jam&learn2/">CtrlReturn >> Jam&Learn 2</a>
+                                <br>
+                                
                                 <a href="/posts/jam&learn1/">CtrlReturn >> Jam&Learn 1</a>
                                 <br>
                                 
