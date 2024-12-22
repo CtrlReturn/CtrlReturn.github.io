@@ -15,7 +15,7 @@
                 <hr>
                 {% endif %}
                 {{ post.excerpt }}
-                <a class="btn btn-primary" href="{{ post.url | relative_url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-readmore" href="{{ post.url | relative_url }}" style="color:#f7ee2a">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
                 <hr>
               {% endfor %}
 

@@ -36,7 +36,7 @@ h4 {
 p {
   font-size: 21px;
   line-height: 28px;
-  color: #7B7B7B;
+  color: #ffffff;
 }
 ul {
   padding: 0;
@@ -47,7 +47,7 @@ a,
 a:active,
 a:focus,
 a {
-  color: #ce0000 !important;
+  color: #ffffff !important;
 }
 a:active {
   text-decoration: none !important;
@@ -73,7 +73,7 @@ a:focus {
 	Header Start
 --*/
 header {
-  background: #540000;
+  background: #ed1e79;
   padding: 20px 0;
 }
 header .navbar {
@@ -124,8 +124,8 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #8b86a3, #322e40);
-  opacity: 0.7;
+  background: #393939;
+  opacity: 0.5;
 }
 #slider .block {
   color: #f1f1f1;
@@ -152,15 +152,26 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #avlog, #post {
     padding: 50px 0 40px;
-    background-color: #090909;
-    color: #7B7B7B;
+    background-color: #9633ac;
+    color: #f7ee2a;
 }
+
+#avlog .btn-readmore {
+  padding: 15px 20px;
+  border: 1px solid #ffffff;
+  background-color: #f7ee2a;
+  font-size: 20px;
+  color: #333333;
+  margin-top: 20px;
+  width: 180px;
+}
+
 /*--
 	wrapper Start
 --*/
 #intro {
   padding: 100px 0;
-  background-color: #090909;
+  background-color: #ffffff;
 }
 #intro .block h2 {
   padding-top: 35px;
@@ -187,14 +198,14 @@ font header .navbar-default .navbar-nav li a:hover {
 #service {
   text-align: center;
   padding: 90px 0;
-  background-color: #090909;
+  background-color: #9633ac;
 }
 #service .service-item {
   padding-bottom: 30px;
 }
 #service .service-item i {
   font-size: 60px;
-  color: #540000;
+  color: #f7ee2a;
 }
 #service .service-item h4 {
   padding-top: 20px;
@@ -215,10 +226,11 @@ font header .navbar-default .navbar-nav li a:hover {
   background: url("../img/call-to-action-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   padding: 70px 0px;
   position: relative;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
 #call-to-action:before {
   content: "";
@@ -229,8 +241,7 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: #2c1919;
-  opacity: 0.8;
+  opacity: 0;
 }
 #call-to-action h2 {
   padding-bottom: 20px;
@@ -244,11 +255,12 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #call-to-action .btn-call-to-action {
   padding: 15px 35px;
-  border: none;
+  border: 1px solid #fff;
   background-color: #fff;
-  font-size: 15px;
+  font-size: 24px;
   color: #333333;
   margin-top: 30px;
+  width: 300px;
 }
 /*--
 	Feature Start
@@ -262,7 +274,7 @@ font header .navbar-default .navbar-nav li a:hover {
   overflow: visible;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -294,11 +306,11 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #testimonial {
   padding: 100px 0;
-  background-color: #090909;
+  background-color: #07b0ef;
 }
 #testimonial .block h2 {
   line-height: 27px;
-  color: #5C5C5C;
+  color: #fffff;
   padding-top: 110px;
 }
 #testimonial .block p {
@@ -324,7 +336,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #testimonial .testimonial-carousel {
   text-align: center;
   width: 75%;
-  border: 1px solid #DEDEDE;
+  border: 1px solid #ffffff;
   padding: 24px;
   margin: 0 auto;
 }
@@ -344,15 +356,15 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 0;
   font-size: 12px;
   line-height: 20px;
-  color: #353241;
+  color: #ffffff;
 }
 #testimonial .testimonial-carousel .user p span {
   display: block;
-  color: #353241;
+  color: #ffffff;
   font-weight: 600;
 }
 #testimonial .testimonial-carousel .owl-carousel .owl-pagination div {
-  border: 1px solid #1D1D1D;
+  border: 1px solid #ffffff;
   border-radius: 500px;
   display: inline-block;
   height: 10px;
@@ -360,7 +372,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 10px;
 }
 #testimonial .testimonial-carousel .owl-carousel .owl-pagination div.active {
-  background: #5C5C5C;
+  background: #ed1e79;
   font-size: 30px;
   display: inline-block;
   border: 0px;
@@ -385,6 +397,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 150px;
   position: relative;
   background-attachment: fixed;
+  background-position: center;
 }
 #party-header:before {
   content: "";
@@ -395,8 +408,8 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
-  opacity: 0.8;
+  background: #393939;
+  opacity: 0.4;
 }
 #party-header .block {
   color: #E3E3E4;
@@ -429,6 +442,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-position: 0% 30%;
   position: relative;
   background-attachment: fixed;
+  background-position: center;
 }
 #global-header:before {
   content: "";
@@ -439,8 +453,8 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
-  opacity: 0.8;
+  background: #393939;
+  opacity: 0.5;
 }
 #global-header .block {
   color: #E3E3E4;
@@ -467,8 +481,8 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #portfolio-work {
   overflow: hidden;
-  padding: 40px 0;
-  background-color: #090909;
+  padding: 60px 0;
+  background-color: #00ff7f;
   color: #7B7B7B;
 }
 #portfolio-work .block .portfolio-menu {
@@ -720,7 +734,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #contact-form {
   padding-top: 70px;
   padding-bottom: 35px;
-  background-color: #090909;
+  background-color: #07b0ef;
 }
 #contact-form .block form .form-group {
   padding-bottom: 15px;
@@ -747,7 +761,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #contact-form .block button {
   width: 100%;
   height: 60px;
-  background: #4c4242;
+  background: #f7ee2a;
   border: none;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -775,7 +789,7 @@ font header .navbar-default .navbar-nav li a:hover {
   display: inline-block;
 }
 .social-icons i {
-  color: #540000;
+  color: #f7ee2a;
   margin-right: 25px;
   font-size: 25px;
 }
@@ -843,7 +857,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	footer Start
 --*/
 footer {
-  background: #540000;
+  background: #ed1e79;
   text-align: center;
   padding-top: 48px;
   padding-bottom: 55px;
@@ -888,13 +902,13 @@ footer .footer-manu ul li a:hover {
 .tablecontainer {
   overflow-y: auto;
   height: 380px;
-  background: #090909;
+  background: ##00ff7f;
   font-size: 18px;
 }
 
 /* remove default cell borders and ensures table width 100% of its container*/
 .tablecontainer table {
-  background-color: #090909;
+  background-color: #ffffff;
   border-spacing: 0;
   border-color: #7b7b7b;
   width:85%;
