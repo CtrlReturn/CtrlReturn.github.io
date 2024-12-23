@@ -171,7 +171,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #intro {
   padding: 100px 0;
-  background-color: #ffffff;
+  background-color: #f7ee2a;
 }
 #intro .block h2 {
   padding-top: 35px;
@@ -227,9 +227,10 @@ font header .navbar-default .navbar-nav li a:hover {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  padding: 70px 0px;
+  padding: 150px 0px;
   position: relative;
   text-align: center;
+  height: 600px;
   color: #ffffff;
 }
 #call-to-action:before {
@@ -241,7 +242,8 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   width: 100%;
   height: 100%;
-  opacity: 0;
+  background: #393939;
+  opacity: 0.1;
 }
 #call-to-action h2 {
   padding-bottom: 20px;
@@ -484,6 +486,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 60px 0;
   background-color: #00ff7f;
   color: #7B7B7B;
+  height: 680px;
 }
 #portfolio-work .block .portfolio-menu {
   padding-bottom: 30px;
@@ -901,7 +904,7 @@ footer .footer-manu ul li a:hover {
 /* this is for the data area that is scrollable */
 .tablecontainer {
   overflow-y: auto;
-  height: 380px;
+  height: 500px;
   background: ##00ff7f;
   font-size: 18px;
 }
