@@ -6,9 +6,41 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 Dec 2024 09:36:27 +0100</pubDate>
-    <lastBuildDate>Mon, 23 Dec 2024 09:36:27 +0100</lastBuildDate>
+    <pubDate>Thu, 26 Dec 2024 16:51:31 +0100</pubDate>
+    <lastBuildDate>Thu, 26 Dec 2024 16:51:31 +0100</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>CtrlReturn &gt;&gt; Jam&amp;Learn 7</title>
+        <description>&lt;h4 id=&quot;ctrlreturn-jamlearn-no-7&quot;&gt;CtrlReturn » Jam&amp;amp;Learn No. 7&lt;/h4&gt;
+
+&lt;p&gt;In the last meetup in the year 2024, Tina was showing her new device Stylish-Trucker-Belt-Synthesizer or STBSy (not really, I just added this “Shorty”).&lt;/p&gt;
+
+&lt;p&gt;Tina just moved to Berlin…so:&lt;/p&gt;
+
+&lt;p&gt;Welcome to Berlin, Tina! Make yourself a home in the city of music! &amp;lt;3&lt;/p&gt;
+
+&lt;p&gt;The device is a synthesizer/sequencer running on a STM32F103C8T6 micro-controller board. Code is written using Arduino IDE and STM32Duino. The introduction was interesting to the point, that Bobo (aka LeRig aka PitchGlitch) already purchased the necessary micro-controller in an attempt to connect FoxDot/Renardo to this device, as soon he has the time to build it.&lt;/p&gt;
+
+&lt;p&gt;The device itself as stylish and beautiful it is, will be offered by Tina as soon she settled in Germany. We hope we will see her again for an extensive introduction for us.&lt;/p&gt;
+
+&lt;p&gt;Here the project site of Tina’s Stylish-Trucker-Belt-Synthesizer:
+https://github.com/softegg/Stylish-Trucker-Belt-Synthesizer&lt;/p&gt;
+
+&lt;p&gt;If you want to contact her (in case you want to purchase the device already) or you would like to check out her music, here the info flyer:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;files/tina_1.png&quot; alt=&quot;TinaBelmont&quot; width=&quot;720&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Be aware, that her website might be temporarily “Out of Order”. Please check again!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Dec 2024 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/posts/jam&learn7/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/jam&learn7/</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>CtrlReturn &gt;&gt; Jam&amp;Learn 4</title>
