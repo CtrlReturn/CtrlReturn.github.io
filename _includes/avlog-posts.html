@@ -5,9 +5,9 @@
 
               {% for post in site.posts %}
                 <!-- AVLog Post -->
-                <h2>
+                <h2 style="color: #ffff00">
                   <!-- <a href="{{ post.url | relative_url }}">{{ post.title }}</a>-->
-                  <a style="color:#540000" href="{{ post.url | prepend: 2024/ | replace: '//', '/' }}">{{ post.title }}</a>
+                  <a href="{{ post.url | prepend: 2024/ | replace: '//', '/' }}">{{ post.title }}</a>
                 </h2>
                 <p><span class="glyphicon glyphicon-time"></span> Posted on {{ post.date | date: "%B %d, %Y" }} </p>
                 {% if page.image %}
@@ -15,7 +15,7 @@
                 <hr>
                 {% endif %}
                 {{ post.excerpt }}
-                <a class="btn btn-readmore" href="{{ post.url | relative_url }}" style="color:#f7ee2a">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <!-- <a class="btn btn-readmore" href="{{ post.url | relative_url }}" style="color:#f7ee2a">Read More <span class="glyphicon glyphicon-chevron-right"></span></a> -->
                 <hr>
               {% endfor %}
 

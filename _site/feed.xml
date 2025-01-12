@@ -6,9 +6,45 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 Dec 2024 16:51:31 +0100</pubDate>
-    <lastBuildDate>Thu, 26 Dec 2024 16:51:31 +0100</lastBuildDate>
+    <pubDate>Sun, 12 Jan 2025 12:14:19 +0100</pubDate>
+    <lastBuildDate>Sun, 12 Jan 2025 12:14:19 +0100</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>CtrlReturn &gt;&gt; Jam&amp;Learn 8</title>
+        <description>&lt;h4 id=&quot;ctrlreturn-jamlearn-no-8&quot;&gt;CtrlReturn » Jam&amp;amp;Learn No. 8&lt;/h4&gt;
+
+&lt;p&gt;Happy New Year 2025 to all lively coders!&lt;/p&gt;
+
+&lt;p&gt;In the first meetup in this year, we rather hang on installing FoxDot/Renardo on Windows OS machines.
+We successful got it to work with three conclusions:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Using following command avoids installing pip on Windows&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;py -m pip install renardo&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;However, you’ll need to use following code line to run renardo:&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python -m renardo&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The manual installation documentation for Windows needs a proper update on our Renardo project site.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;An automatic batch executable (e.g. setup.exe) for Windows users is needed.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Fri, 10 Jan 2025 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/posts/jam&learn8/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/jam&learn8/</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>CtrlReturn &gt;&gt; Jam&amp;Learn 7</title>
